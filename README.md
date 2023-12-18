@@ -55,8 +55,7 @@ todolist02.infinityfreeapp.com
 2. Jalankan aplikasi pada server lokal atau server web yang sesuai.
 3. Buka aplikasi melalui browser.
 
-### Lisensi
-[MIT License](LICENSE)
+
 
 
 ### Hosting Web
