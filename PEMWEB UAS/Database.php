@@ -2,10 +2,10 @@
 
 
 class Database {
-    private $host = 'localhost';
-    private $username = 'your_username';
-    private $password = 'your_password';
-    private $dbname = 'your_database';
+    private $host = 'sql201.infinityfree.com';
+    private $username = 'if0_35637598';
+    private $password = 'UPXzhwi4Es';
+    private $dbname = 'if0_35637598_db_todolist';
 
     private $conn;
 
