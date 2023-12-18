@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    task VARCHAR(255) NOT NULL,
+    priority VARCHAR(10) NOT NULL,
+    completed ENUM('Yes', 'No') NOT NULL,
+    category VARCHAR(20) NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

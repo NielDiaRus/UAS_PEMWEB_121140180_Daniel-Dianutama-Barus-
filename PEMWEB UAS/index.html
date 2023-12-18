@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h1>Todo List</h1>
+
+    <!-- Formulir untuk menambahkan tugas -->
+    <form id="todoForm">
+        <label for="task">Task:</label>
+        <input type="text" id="task" name="task" required>
+
+        <label for="priority">Priority:</label>
+        <select id="priority" name="priority">
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+        </select>
+
+        <label>
+            <input type="checkbox" id="completed" name="completed"> Completed
+        </label>
+
+        <label>Category:</label>
+        <label><input type="radio" name="category" value="Work" checked> Work</label>
+        <label><input type="radio" name="category" value="Personal"> Personal</label>
+
+        <button type="button" onclick="addTask()">Add Task</button>
+    </form>
+
+    <!-- Tabel untuk menampilkan tugas -->
+    <table id="taskTable">
+        <thead>
+            <tr>
+                <th>Task</th>
+                <th>Priority</th>
+                <th>Completed</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody id="taskList">
+            <!-- Data tugas akan ditampilkan di sini -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
